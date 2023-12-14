@@ -1,23 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" href="images/KB-Logo.png">
+    <link rel="icon" href="images/kb-logo.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Kimberly Bonilla</h1>
-        <ul>
-            <li><a href="Index.html">Home</a></li>
-            <li><a href="About-Me.html">About Me</a></li>
-            <li><a href="Portfolio.html">Portfolio</a></li>
-            <li><a href="Resume.html">Resume</a></li>
-        </ul>
+        <section class="top-nav">
+            <div>
+                <a href="index.html"><img src="images/kb-logo.png" alt="KB Logo"></a>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+        </section>
     </header>
     <h1>Resume</h1>
-    <p><a href="https://docs.google.com/document/d/1xhk-xR_WMhMiQpVHcN_UYGyM-N-jJ_jmCzCu4_o4OrA/edit?usp=sharing" target="_blank">Download my resume!</a> </p>
+    <p><a href="https://docs.google.com/document/d/1xhk-xR_WMhMiQpVHcN_UYGyM-N-jJ_jmCzCu4_o4OrA/edit?usp=sharing" target="_blank">Download my resume!</a></p>
     <h2>Skills</h2>
     <h3>Languages</h3>
     <p>Fluent in English, Fluent in Spanish, Upper-Intermediate in French</p>
@@ -88,8 +97,8 @@
     <footer>
         <h3>Contact Me</h3>
         <p>Phone Number&colon; &#40;215&#41;435-4028</p>
-        <p>Drexel E-mail&colon; kjb396@drexel.edu</p>
-        <p>Personal  E-mail&colon; kb41232@gmail.com</p>
+        <p>Drexel E-mail&colon; <a href="mailto:kjb396@drexel.edu">kjb396@drexel.edu</a></p>
+        <p>Personal  E-mail&colon; <a href="mailto:kb41232@gmail.com">kb41232@gmail.com</a></p>
     </footer>
 </body>
 </html>
