@@ -129,6 +129,7 @@ header a:visited {
     .menu-button-container {
         display: flex;
     }
+
     .menu {
         position: absolute;
         top: 0;
@@ -139,6 +140,7 @@ header a:visited {
         justify-content: center;
         align-items: center;
     }
+
     #menu-toggle ~ .menu li {
         height: 0;
         margin: 0;
@@ -146,12 +148,14 @@ header a:visited {
         border: 0;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
+
     #menu-toggle:checked ~ .menu li {
         border: .5px solid #3D251E;
         height: 3em;
         padding: .5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
+
     .menu > li {
         display: flex;
         justify-content: center;
@@ -161,6 +165,7 @@ header a:visited {
         width: 100%;
         background-color: #F2E7D4;
     }
+
     .menu > li a {
         padding: 0, 10rem;
         display:block;
@@ -307,4 +312,37 @@ align-items: center;
     letter-spacing: 0.01rem;
     line-height: 1.45rem;
     margin: .5rem 0;
+}
+
+/*restructure of dlw page*/
+.dlw-pic {
+    margin: .5rem;
+}
+
+.dlw-pic img {
+    border-radius: 1rem;
+    border: .2rem solid #A3B18A;
+    box-shadow: 0px 6px 6px rgb(0, 0, 0, 0.2);
+}
+
+.dlw-explanation {
+    margin: 0 2rem;
+}
+
+.dlw-explanation h1 {
+    margin: 1rem 0;
+    letter-spacing: 0.06rem;
+    text-decoration: underline #A3B18A;
+    text-underline-offset: .3rem;
+}
+
+.dlw-explanation h3 {
+    margin: .35rem 0;
+    font-size: 1.25rem;
+}
+
+.dlw-explanation p {
+    margin: 1rem;
+    letter-spacing: 0.01rem;
+    line-height: 1.45rem;
 }
