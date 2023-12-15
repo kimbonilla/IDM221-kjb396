@@ -124,7 +124,7 @@ header a:visited {
     transform: rotate(-405deg);
     }
     
-    /*Pop-up Menu*/
+    /*pop-up menu*/
     @media (max-width: 700px) {
     .menu-button-container {
         display: flex;
@@ -223,7 +223,7 @@ footer a:visited {
     color:#954A41
 }
 
-/*Homepage*/
+/*homepage*/
 .intro-message {
     text-align:center;
 }
@@ -248,7 +248,7 @@ margin-top: 2rem;
 align-items: center;
 }
 
-/*About Me Page*/
+/*about me page*/
 .about-me-pic {
     margin: .5rem;
 }
@@ -273,4 +273,38 @@ align-items: center;
 .bio p {
     letter-spacing: 0.01rem;
     line-height: 1.45rem;
+}
+
+/*portfolio page*/
+.portfolio-pic {
+    margin: .5rem;
+}
+
+.portfolio-pic img {
+    border-radius: 1rem;
+    border: .2rem solid #A3B18A;
+    box-shadow: 0px 6px 6px rgb(0, 0, 0, 0.2);
+}
+
+.portfolio-text {
+    margin: 0 2rem 1.5rem;
+}
+
+.portfolio-text h1{
+    margin: 1.5rem 0;
+    letter-spacing: 0.06rem;
+    text-decoration: underline #A3B18A;
+    text-underline-offset: .3rem;
+}
+
+.portfolio-text h3 {
+    margin: 3rem 0 .25rem 0;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.portfolio-text p, ul {
+    letter-spacing: 0.01rem;
+    line-height: 1.45rem;
+    margin: .5rem 0;
 }
