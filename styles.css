@@ -13,7 +13,8 @@ html, body{
     color: #F2E7D4;
     margin: 0;
     height: 100%;
-    text-wrap: pretty;
+    /*text-wrap: pretty;*/
+    /*error says pretty doesn't exist*/
 }
 
 * {
