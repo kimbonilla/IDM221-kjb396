@@ -346,3 +346,34 @@ align-items: center;
     letter-spacing: 0.01rem;
     line-height: 1.45rem;
 }
+
+.resume {
+    margin: 2rem;
+}
+
+.resume h1 {
+    margin: 1.5rem 0;
+    letter-spacing: 0.06rem;
+    text-decoration: underline #A3B18A;
+    text-underline-offset: .3rem;
+}
+
+.resume h2 {
+    margin: 3rem 0 0;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.07rem;
+}
+
+.resume h3 {
+    margin: 2.2rem 0 .1rem;
+    font-size: 1.4rem;
+    font-weight: 450;
+    letter-spacing: 0.06rem;
+}
+
+.resume p, a {
+    margin: 1rem 0 0.75rem;
+    letter-spacing: 0.01rem;
+    line-height: 1.45rem;
+}
