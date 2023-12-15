@@ -163,6 +163,7 @@ header a:visited {
     }
     .menu > li a {
         padding: 0, 10rem;
+        display:block;
     }
     }
 
@@ -176,7 +177,6 @@ h1, h2, h3, h4, h5, h6{
 /*main text*/
 p, ul {
     font-family: 'manrope', sans-serif;
-    font-size: .825rem;
     font-weight: 275;
 }
 
@@ -246,4 +246,31 @@ footer a:visited {
 .home-pic {
 margin-top: 2rem;
 align-items: center;
+}
+
+/*About Me Page*/
+.about-me-pic {
+    margin: .5rem;
+}
+
+.about-me-pic img {
+    border-radius: 1rem;
+    border: .2rem solid #A3B18A;
+    box-shadow: 0px 6px 6px rgb(0, 0, 0, 0.2);
+}
+
+.bio {
+    margin: 0 2rem;
+}
+
+.bio h1 {
+    margin: 1rem 0;
+    letter-spacing: 0.06rem;
+    text-decoration: underline #A3B18A;
+    text-underline-offset: .3rem;
+}
+
+.bio p {
+    letter-spacing: 0.01rem;
+    line-height: 1.45rem;
 }
