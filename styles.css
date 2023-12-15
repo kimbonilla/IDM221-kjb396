@@ -13,6 +13,11 @@ html, body{
     color: #F2E7D4;
     margin: 0;
     height: 100%;
+    text-wrap: pretty;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /*header*/
@@ -31,13 +36,13 @@ header a:visited {
     color: #954A41;
 }
 
-/*hamburger menu animation*/
+/*hamburger menu*/
     /*overall*/
 .menu {
     vertical-align: center;
     text-align: center;
     font-family: 'podkova';
-    box-sizing: border-box;
+    font-size: 1.2rem;
     }
 
     /*header box*/
@@ -47,7 +52,7 @@ header a:visited {
     align-items: center;
     justify-content: space-between;
     background-color: #F2E7D4;
-    height: 50px;
+    height: 75px;
     padding: 1em;
     }
     /*hamburger icon*/
@@ -114,6 +119,7 @@ header a:visited {
     transform: rotate(-405deg);
     }
     
+    /*Pop-up Menu*/
     @media (max-width: 700px) {
     .menu-button-container {
         display: flex;
@@ -137,8 +143,8 @@ header a:visited {
     }
     #menu-toggle:checked ~ .menu li {
         border: .5px solid #3D251E;
-        height: 2.5em;
-        padding: 0.5em;
+        height: 3em;
+        padding: .5em;
         transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
     }
     .menu > li {
@@ -146,21 +152,31 @@ header a:visited {
         justify-content: center;
         align-items: center;
         margin: 0;
-        padding: 0.5em 0;
+        padding: 1em 0;
         width: 100%;
         background-color: #F2E7D4;
     }
     }
 
+/*all text*/    
+
+/*headers*/
 h1, h2, h3, h4, h5, h6{
     font-family: 'podkova', serif;
 }
+
 /*main text*/
 p, ul {
     font-family: 'manrope', sans-serif;
     font-size: .825rem;
+    font-weight: 275;
 }
 
+ul {
+    padding-left: 20px;
+}
+
+    /*main text links*/
 p a:link {
     color: #B08C69;
 }
@@ -169,12 +185,26 @@ p a:visited{
     color:#D3A292
 }
 
+/*images*/
 img {
     max-width: 100%;
 }
 
 /*footer*/
 footer {
+    padding: 5px;
+    text-align: center;
     background-color: #F2E7D4;
     color: #3D251E;
 }
+
+footer h3 {
+    box-sizing: border-box;
+    height: 20px;
+}
+
+/*Homepage*/
+.intro-message {
+    text-align:center;
+}
+
