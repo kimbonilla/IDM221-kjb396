@@ -213,11 +213,13 @@ footer {
 
 footer h3 {
     margin: 0;
+    font-size: 1.4rem;
+    font-weight: 450;
 }
 
 footer p {
     margin: 0;
-    padding: .125rem;
+    padding: .2rem;
 }
 
 footer a:link {
